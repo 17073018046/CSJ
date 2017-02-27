@@ -1,0 +1,139 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #DEDEDE;
+}
+.head{
+	height: 70px;
+	background: darkslategray;
+}
+.nav{
+	float: right;
+}
+.head_middle{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+}
+.nav li{
+	float: left;
+	line-height: 70px;
+	margin-left: 25px;
+}
+.nav li a{
+	color: white;
+}
+/*li{
+	list-style: none;
+}*/
+a{
+	text-decoration: none;
+}
+.main{
+	width: 1200px;
+	margin: 0 auto;
+}
+.article_one{
+	background: white;
+	margin-top: 20px;
+	padding: 30px 20px;
+}
+/*p{
+	text-indent: 2em;
+}*/
+.article-two{
+	background: white;
+	margin-top: 20px;
+	padding: 30px 20px;
+}
+.article-two li{
+	list-style: none;
+	margin-left: 20px;
+}
+.img{
+	background: white;
+	margin-top: 20px;
+	padding: 30px 20px;
+}
+.img div{
+	width: 120px;
+	height: 120px;
+	border: 1px solid darkgray;
+	margin: 20px 0px 10px 30px;
+}
+.img img{
+	width: 100px;
+	height: 80px;
+	margin: 5px auto;
+	display:block;
+}
+.img p{
+	text-align: center;
+}
+.article_three{
+	background: white;
+	margin-top: 20px;
+	padding: 30px 20px;
+}
+.article_three ol{
+	margin-left:40px
+}
+.article_three table{
+	width: 100%;
+	border-collapse: collapse;
+}
+.article_three thead{
+	background: black;
+}
+.article_three thead td{
+	color: white;
+}
+.article_three tfoot{
+	background: darkgray;
+}
+.sideBar{
+	background: white;
+	margin-top: 20px;
+	padding: 30px 20px;
+	/*position: relative;*/
+}
+.sideBar h2{
+	border-left: 3px solid darkgray;
+	padding: 5px;
+}
+.describe{
+	width: 35%;
+	float: left;
+	padding-right: 10px;
+	text-align: right;
+}
+.right{
+	margin-left: 36%;
+}
+.btn{
+	width: 100%;
+	border-radius: 5px;
+	background: blue;
+	height: 40px;
+	color: white;
+}
+.sideBar div{
+	margin-bottom: 15px;
+}
+.sideBar textarea{
+	width: 700px;
+	height:80px;
+}
+.footer{
+	background: black;
+	height: 50px;
+}
+.footer p{
+	/*margin: 0 auto;*/
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	font-size: small;
+}
